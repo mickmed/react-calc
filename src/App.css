@@ -48,9 +48,7 @@ button, .mod {
   background-color: lightblue;
   border:1px solid yellow;
 }
-.mod{
-  font-size:10px;
-}
+
 form div {
   margin: 50px;
 }

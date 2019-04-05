@@ -43,7 +43,7 @@ class Calculator extends Component {
 
   handleKeyDown = event => {
     let ansEval = this.convertModToPercent(this.state.eq)
-    
+    //clear the answer field
     this.setState({ans:ansEval})
     if(this.state.eq === ''){this.setState({ans: ''})} 
     event.preventDefault()  
@@ -102,6 +102,7 @@ class Calculator extends Component {
         </form>
         </div>
       </div>
+
     );
   }
 }
